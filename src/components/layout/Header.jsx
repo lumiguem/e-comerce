@@ -27,8 +27,8 @@ const Header = () => {
         <div className=" border-r h-full grid items-center justify-center">
         <Link className="text-xl text-gray-400 hover:text-red-500" to="/purchases"> <i className='bx bx-box'></i></Link>
         </div>
-        <div className="border-r h-full  grid items-center justify-center">
-        <button className="text-2xl text-gray-400 hover:text-red-500" onClick={handleClickShowCart}><i className='bx bx-cart'></i><div className="fixed text-xs bg-red-500 aspect-square rounded-full px-1 text-white translate-x-4 -translate-y-5">{totalItems} </div> </button>
+        <div className="border-r h-full  grid items-center justify-center relative">
+        <button className="text-2xl text-gray-400 hover:text-red-500" onClick={handleClickShowCart}><i className='bx bx-cart'></i> </button>
         </div>
         
       </nav>
