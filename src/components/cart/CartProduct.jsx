@@ -19,11 +19,11 @@ const CartProduct = ({ cartProduct }) => {
 
             <div>
                 <span className="text-sm line-clamp-2 ">{cartProduct.product.title}</span>
-                <article className="mt-2">
-                    <div className="flex max-w-max border-[1px]">
-                        <button className="p-1 px-3 border-2" >-</button>
-                        <div className="p-1 px-3 border-2">{cartProduct.quantity}</div>
-                        <button className="p-1 px-3 border-2" >+</button>
+                <article className="mt-2 px-4">
+                    <div className="flex max-w-max  border">
+                        <button className="p-1 px-3 " >-</button>
+                        <div className="p-1 px-3 border-l ">{cartProduct.quantity}</div>
+                        <button className="p-1 px-3 border-l" >+</button>
                     </div>
                 </article>
             </div>

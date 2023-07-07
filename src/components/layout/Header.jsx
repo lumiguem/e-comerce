@@ -19,7 +19,7 @@ const Header = () => {
 
       <nav className="grid grid-cols-5 h-[70px] items-center border-b">
         <div className="sm:border-r h-full grid items-center col-span-2 px-6">
-        <Link className="text-sm sm:text-3xl text-red-500 font-bold sm:px-2" to="/">e-comerce</Link>
+        <Link className="text-sm sm:text-3xl text-red-500 font-bold sm:px-2" to="/">e-commerce</Link>
         </div>
         <div className="border-r h-full grid items-center justify-center">
         <Link className="text-xl text-gray-400 hover:text-red-500" to="/login"><i className='bx bxs-user'></i></Link >
